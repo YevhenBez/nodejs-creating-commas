@@ -2,7 +2,7 @@ const fs = require('fs');
 const readline = require('readline');
 
 async function processLineByLine() {
-  const fileStream = fs.createReadStream('../src/path/to/test2.txt');
+  const fileStream = fs.createReadStream('../src/path/to/10mNext.txt');
 
   const rl = readline.createInterface({
     input: fileStream,
